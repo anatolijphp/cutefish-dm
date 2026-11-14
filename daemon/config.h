@@ -24,6 +24,7 @@ struct Config {
     bool autologinRelogin = false;
     std::string statePath = "/var/lib/cutefish-dm/state.conf";
     std::string backgroundDirectory = "/var/lib/cutefish-dm/backgrounds";
+    std::string displayDirectory = "/var/lib/cutefish-dm/displays";
     std::string runtimeDirectory = "/run/cutefish-dm";
 
     // Defaults, overridden by whatever `path` sets.
